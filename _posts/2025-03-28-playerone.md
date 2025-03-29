@@ -10,7 +10,7 @@ I do not know if any companies marketing cameras containing STARVIS sensors dire
 
 We settled on the [PlayerOne ARES-M Pro](https://player-one-astronomy.com/product/ares-m-pro-usb3-0-mono-camera-imx533/) camera.  This has about 9M pixels that are 3.76 micron squared each, it has a maximum QE of 91%, and read-noise close to 1 electron.  We ordered one of these plus a power supply from PlayerOne, and a [M42 to C-Mount adapter from Amazon](https://www.amazon.com/Adapter-Connection-Microscope-Industrial-Accessories/dp/B0D83S2TM7?gQT=0&th=1).  Total cost was less than $1,100.
 
-![](microscope-thoughts/media/ARES_M_Pro.jpg)
+![](/microscope-thoughts/media/ARES_M_Pro.jpg)
 
 I tested the camera first at my desk and should have taken some pictures of the camera, Micro-Manager properties, as well as images taken with the camera, but I forgot.  The PlayerOne programmers (who contributed the Micro-Manager device adpater code March 2024) had done a great job.  The Micro-Manager website has [instructions](https://micro-manager.org/PlayerOne) on getting the camera to work.  After configuration, all relevant properties showed up in the MM Property Browser.  You can switch the cooler on and off, set a target temperature, and even control the anti-dew heater.  The camera gain is an important parameter.  For fluorescence, you likely will want to run the camera at a gain of 125, which yields a read-out noise of ~1.4e, but has a higher dynamic range than what you get at the highest gaion (with lowest read-noise).  Only thing I did not find was a way to switch between Normal mode (slightly higher read-noise but faster), and LRN mode (lowest read-noise but also lower frames per second).
 
