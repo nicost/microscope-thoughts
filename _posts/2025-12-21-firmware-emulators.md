@@ -1,11 +1,10 @@
-
 ---
 title: "Firmware Emulators for Microscope Devices"
 author: Nico Stuurman
 date: 2025-12-21
 ---
 
-My friends and I have talked now and then about the possibility of emulating microscope devices to facilitate developing code to interface with these devices and to test code (possibly in an automated way). Communication with many of these devices takes place through old-fashioned serial interfaces, where the protocol is often described in the manual or developer's documentation. Therefore, using an [Arduino](https://www.arduino.cc) (or other easily available and programmable micro-controller) for emulation is an attractive option.
+My friends and I have regularly contemplated emulating microscope devices to facilitate developing code to interface these devices with computers, especially to (automatically) test that code. Communication with many of these devices takes place through old-fashioned serial interfaces, where the protocol is often described in the manual or developer's documentation. Therefore, using an [Arduino](https://www.arduino.cc) (or other easily available and programmable micro-controller) for emulation is an attractive option.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/250px-Arduino_Uno_-_R3.jpg)
 
