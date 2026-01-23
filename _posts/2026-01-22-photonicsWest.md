@@ -22,17 +22,19 @@ The [Photonics West](https://spie.org/conferences-and-exhibitions/photonics-west
 
 - [Zaber](https://www.zaber.com/) has a system with an automated microscope, plate hotel and robot arm to feed the microscope for something significantly under $50k.  It should fit in an incubator and would make an awesome live cell automated imaging platform.  They have a laser autofocus for their microscope as well.  They work very well with Micro-Manager.
 
-- [Omicron](https://omicron-laser.de) makes lasers and laser combiners taht also workj well with Micro-Manager.  They have nice compact 4 and 6 laser launches that are quite affordable. Laser Light engine for epi-fluorescence, LED illuminator
+- [Omicron](https://omicron-laser.de) makes lasers and laser combiners that also work well with Micro-Manager.  They have nice compact 4 and 6 laser launches that are quite affordable. They also have [high power lasers](https://www.omicron-laser.de/english/light-engines/brixxhub-laser-combiner/brixxhub-laser-combiner.html) with for instance a 488nm 2W directly modulatable lasers that I remember to cost around $15k.  These may be interesting for some of the light sheet approaches to single molecule and other super fast imaging.  They also had these in a laser combiner that could have a multimode fiber as output for widefield (or TIRF) illumination. These also could be very interesting for specific applications.  Their multi-line LED illuminator (competitively priced) was only had constant power output but also was wavelength stabilizeh.  I had not realized this previously, but with band-pass filters wavelength changes can indeed lead to pwoer fluctuations at the sample.  
 
-- [FingerLakesr]() Has a Filter Wheel again!
+- [FingerLakes instrumentation](https://www.flicamera.com/) Their core buseiness are cameras for the astronomy market, but they were well known for their filter wheels that were very fast and did not need an external controller.  They changed ownership a few years ago and stopped making those filter wheels.  Now, they changed owners again and are restarting manufacturing their filter wheels.  
 
-- [Hamamatsu]() Light source
+- [Hamamatsu Photonics](https://www.hamamatsu.com/jp/en.html) They were everywhere!  Both Fairchild and Toptica signalled they are Ahamatsu subsidiaries.  I like that they are not rebranding these comanies making it much easier to keep track of things (I am not sure what we should do about micro-Manager device adapters that are fully functional but names after companies whose names have disappeared).  I had a very nice time with Jamie Butler and Jim Sims (who showed me some amazing old coins).  Jamie pointed out an interesting new light source that consists of a plasma ignited by a laser, hence very high white light brightness and a radiance of somewhere around 100mW/mm2.  I do not have direct plans for these, but surely interesting.
 
-- [Excelitas]() Was PCO.  New camera with sunukar specs as the Hamamatsu Quest2 (based on the same chip).  Also showed: 
-    - Image Splitter
-    - Wavelength scanning devices
+- [Excelitas](https://www.excelitas.com/product-category/pco) has gobbled up PCO.  I chatted with Dr. Gerhard Holst.  Their newest camera has about the same specs as the Hamamatsu Quest2, but for significantly lower cost.  He also shoed me some interesting new gadgets from other companies.  They had an image splitter at their booth from an Austrian company called [Akrima](https://www.akrima.at/?lang=en).  It seems to have different names starting with lambda2.  It looked well made with nice adjustments, but I can not vouch for the image quality or day to day use but I will definetly consider these if I'd be in the market for one of them again.  He also shoed me the GeminiX from a company called [Nireos](https://nireos.com/). Their device sits in between the mciroscope and the camer and turns the camera into a hyperspectral camera.  I did not understand the physics, but you take 100 images each with slightly different settings of the device and calculate a spectrum with a resolution of range / 100.  Both these devices were priced around $15k.  I am very intrigued about that multi-spectral device and looking for an excuse to get one.
 
 
-- [Alibanal]() groups: Laser shutters
+- [Alibanal](https://albinal.com) Just to remember, if you ever need a fast physical laser shutter, they sell them.
 
+
+- [RedPitaya](https://redpitaya.com/). FOGA boards for development.  I always wanted to play with these but have not yet found the project to do so.  There was nobody at their booth...
+
+And then the weirdest thing.  At the very end of the floor was a small booth with a bunch of binoculars from a company in China.  I think they were looking for OEM partners.  I picked up a 10x42, it felt pretty good, functioned correctly, and had a decent image (as far as I could judge in 30 seconds indoors).  Funnily enough, I ended up bringing it home, will be good when having guests over to go bird wwatching.
 
