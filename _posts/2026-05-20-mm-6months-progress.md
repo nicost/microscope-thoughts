@@ -1,5 +1,5 @@
 ---
-title: "Half a year of progress in the Micro-Manager ecop system"
+title: "Half a year of progress in Micro-Manager development"
 author: Nico Stuurman
 date: 2026-05-20
 ---
@@ -7,14 +7,14 @@ date: 2026-05-20
 
 # Faster progress on Micro-Manager development thanks to new AI coding tools
 
-Like so many other software projects, Micro-Manager has benefitted enormously from the new AI coding tools.  Development is often faster than documenting, and to rectify that a bit I am planning to write a couple of posts about the new features in Micro-Manager.  For me, but also for you the reader, first a short overview of accomplishments in the last 6 months or so.
+Like so many other software projects, [Micro-Manager](https://micro-manager.org) has benefitted enormously from the new AI coding tools.  Development is often faster than documenting, and to rectify that a bit I am planning to write a couple of posts about the new features in Micro-Manager.  For me, but also for you the reader, first a short overview of accomplishments in the last 6 months or so.
 
 ## Device Adapters added:
-    - Evident IX85
-    - Rapp UGA42 (plus Rapp lasers)
-    - Spinnaker C (should be less depenedent on Spinnaker version, by Mark Tsuchia)
+    - [Evident IX85 https://evidentscientific.com/en/products/inverted/ixplore-ix85
+    - [Rapp UGA42](https://rapp-opto.com/products/photomanipulation-systems/scanner-based-photomanipulation-uga-42-series/) (plus Rapp lasers)
+    - Spinnaker C (should be less dependent on Spinnaker version, by Mark Tsuchia)
     - Utilities - StageState device (so that a linear stage can be used as a state device, by Mark Tsuchida)
-    - Thorlabs TSP01 temperature sensor (by @aandreev0)
+    - [Thorlabs TSP01](https://www.thorlabs.com/item/TSP01) temperature and humidity sensor (by @aandreev0)
     - iSIMWaveForms (by Kyle Douglass)
     - ReflectorFocus: Focus maintennace device that needs a camera, shutter and stage in the configuration.
 
@@ -30,5 +30,5 @@ Like so many other software projects, Micro-Manager has benefitted enormously fr
     - Deskew Explorer: Explorer for Snouty-type Light sheet microscopes, takes a volume at each position, projects and places in an Explorer.
 
 
-I'll go into detail for a few of these issues in the near future.
+I'll go into detail for a few of these new features in the near future.
 
