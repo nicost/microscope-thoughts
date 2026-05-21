@@ -1,7 +1,7 @@
 ---
 title: "Half a year of progress in the Micro-Manager ecop system"
 author: Nico Stuurman
-date: 2026-06-20
+date: 2026-05-20
 ---
 
 
